@@ -1,0 +1,128 @@
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .btn-group text-right {
+             position: fixed;
+             float: right;
+        }
+
+
+
+        .user-wrapper, .message-wrapper {
+            border: 1px solid #000000;
+            overflow-y: auto; 
+        }
+
+        .user-wrapper {
+            height: 600px;
+            margin: 5px;
+        }
+
+        .user {
+            float: left;
+            margin: 2px;
+            cursor: pointer;
+            padding: 2px 0;
+            position: relative;
+        }
+
+        .user:hover {
+            background: #E0FFFF;
+        }
+
+        .user:last-child {
+            margin-bottom: 0;
+        }
+
+        .pending {
+            position: absolute;
+            left: 13px;
+            top: 5px;
+            background: #FF00FF;
+            margin: 0;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            line-height: 18px;
+            padding-left: 5px;
+            color: #FFFFFF;
+            font-size: 12px;
+        }
+
+        .media-left {
+            margin: 0 10px;
+        }
+
+        .media-left img {
+            width: 64px;
+            border-radius: 64px;
+        }
+
+        .media-body p {
+            margin: 6px 0;
+        }
+
+        .message-wrapper {
+            padding: 10px;
+            height: 536px;
+            background: #828282;
+        }
+
+        .messages .message {
+            margin-bottom: 15px;
+        }
+
+        .messages .message:last-child {
+            margin-bottom: 0;
+        } 
+
+        .received, .sent {
+            width: 45%;
+            padding: 3px 10px;
+            border-radius: 10px;
+        }
+
+        .received {
+            background: #424242;
+        }
+
+        .sent {
+            background: #C0C0C0;
+            float: right;
+            text-align: right;
+        }
+
+        .message p {
+            margin: 5px 0;
+        }
+
+        .date {
+            color: #FFFFFF;
+            font-size: 12px;
+        }
+
+        .active {
+            color: #000000;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 15px 0 0 0;
+            display: inline-block;
+            border-radius: 4px;
+            box-sizing: border-box;
+            outline: none;
+            border: 1px solid #ffffff;
+        }
+
+        input[type=text]:focus {
+            border: 1px solid #000000;
+        }
+        
